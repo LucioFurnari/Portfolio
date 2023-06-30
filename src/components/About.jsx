@@ -12,7 +12,7 @@ function About () {
           <span className='text-red-700 text-2xl mb-4'>Who am i?</span>
           <h2 className='text-2xl font-bold mb-6'>I&apos;m Lucio Furnari, a Front End developer</h2>
           <p className='pb-10 border-b-[1px] border-slate-400/75'>
-            Soy un programador front-end con 1 año de experiencia en el desarrollo web utilizando tecnologías como React y el diseño de páginas responsive con Tailwind CSS.
+            I&apos;m a front-end programmer with 1 year of web development experience using technologies like React and responsive page design with Tailwind CSS.
           </p>
           <div className='mt-10'>
             <div className='grid grid-cols-2 mb-10'>
