@@ -1,20 +1,21 @@
-import onlineShopImage from  '../assets/online_shop.png';
-import { onlineShopProject } from './listOfProjects';
+import { onlineShopProject, weatherAppProject, gameProject } from './listOfProjects';
 
 function Projects () {
   return (
     <section id='projects' className='py-20 px-40'>
-    <h2 className='text-4xl relative font-semibold mb-6 pb-4 after:content-[" "] after:absolute after:bottom-0 after:left-0 after:bg-red-600 after:w-24 after:h-2 '>Projects</h2>
+      <h2 className='text-4xl relative font-semibold mb-6 pb-4 after:content-[" "] after:absolute after:bottom-0 after:left-0 after:bg-red-600 after:w-24 after:h-2 '>Projects</h2>
       <ProjectCard {...onlineShopProject}/>
+      <ProjectCard {...weatherAppProject}/>
+      <ProjectCard {...gameProject}/>
     </section>
   )
 }
 
 function ProjectCard (props) {
   // eslint-disable-next-line react/prop-types
-  const { projectTitle, projectDescription, arrayOfTech, liveLink, codeLink } = props;
+  const { projectTitle, projectDescription, arrayOfTech, liveLink, codeLink, projectImage } = props;
   return (
-    <div className='flex justify-around p-12 border-2 border-black'>
+    <div className='flex justify-around p-12 my-6 border-2 border-black'>
       <div className='max-w-2xl'>
         <h3 className='text-3xl mb-6 font-semibold'>{projectTitle}</h3>
         <p className='text-xl py-4 max-w-xl'>{projectDescription}</p>
@@ -40,7 +41,7 @@ function ProjectCard (props) {
         </div>
       </div>
       <div className='max-w-2xl p-8 flex items-center'>
-        <img className='w-full h-auto' src={onlineShopImage}></img>
+        <img className='w-full h-auto' src={projectImage}></img>
       </div>
     </div>
   )
