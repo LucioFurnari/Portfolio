@@ -15,8 +15,8 @@ import gitIcon from '../assets/git_icon.svg';
 
 function Skills () {
   return (
-    <section id='skills' className='bg-zinc-100 px-10 py-10 flex flex-col items-center'>
-      <h2 className='text-4xl mb-6 font-semibold'>My skills</h2>
+    <section id='skills' className='bg-zinc-100 px-10 py-12 flex flex-col items-center'>
+      <h2 className='text-4xl my-6 font-semibold'>My skills</h2>
       <ul className='grid grid-cols-[minmax(100px,_200px)_minmax(100px,_200px)_minmax(100px,_200px)_minmax(100px,_200px)_minmax(100px,_200px)] justify-items-center gap-8'>
             <Card url={reactIcon} altText='React js icon' imgText='React Js' />
             <Card url={tailwindIcon} altText='Tailwind css icon' imgText='Tailwind Css' />
