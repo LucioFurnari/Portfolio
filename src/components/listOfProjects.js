@@ -10,7 +10,7 @@ import htmlIcon from '../assets/html_icon.svg';
 
 import onlineShopImage from  '../assets/online_shop.png';
 import weatherAppImage from '../assets/weatherApp_image.png';
-import gameImage from '../assets/tictactoe_image-pmg';
+import gameImage from '../assets/game_image.png';
 
 export const onlineShopProject = {
   projectTitle: 'Online shop', 
