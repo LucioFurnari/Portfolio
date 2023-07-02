@@ -15,9 +15,9 @@ import gitIcon from '../assets/git_icon.svg';
 
 function Skills () {
   return (
-    <section id='skills' className='bg-zinc-100 px-10 py-12 flex flex-col items-center'>
+    <section id='skills' className='bg-zinc-100 px-4 sm:pl-36 xl:pr-20 xl:pl-64 py-12 flex flex-col items-center '>
       <h2 className='text-4xl my-6 font-semibold'>My skills</h2>
-      <ul className='grid grid-cols-[minmax(100px,_200px)_minmax(100px,_200px)_minmax(100px,_200px)_minmax(100px,_200px)_minmax(100px,_200px)] justify-items-center gap-8'>
+      <ul className='grid grid-cols-3   xl:grid-cols-[minmax(100px,_200px)_minmax(100px,_200px)_minmax(100px,_200px)_minmax(100px,_200px)_minmax(100px,_200px)] justify-items-center gap-8'>
             <Card url={reactIcon} altText='React js icon' imgText='React Js' />
             <Card url={tailwindIcon} altText='Tailwind css icon' imgText='Tailwind Css' />
             <Card url={bootstrapIcon} altText='Bootstrap icon' imgText='Bootstrap' />
@@ -43,9 +43,9 @@ function Card (props) {
   // eslint-disable-next-line react/prop-types
   const { url, altText, imgText } = props
   return (
-    <li className='bg-white p-4 flex flex-col items-center w-full rounded-lg border-2 border-zinc-500'>
-      <img src={url} alt={altText} className='w-full h-auto'></img>
-      <p className='mt-4 text-lg'>{imgText}</p>
+    <li className='bg-white p-2 sm:p-4 flex flex-col justify-center items-center w-full rounded-lg border-2 border-zinc-500'>
+      <img src={url} alt={altText} className=' w-12 sm:w-full h-auto'></img>
+      <p className='mt-2 sm:mt-4 text-lg'>{imgText}</p>
     </li>
   )
 }
