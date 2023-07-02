@@ -8,3 +8,4 @@ Tech used:
  - Tailwind css
  - Eslint
  - Vite / SWC
+ - EmailJS 
