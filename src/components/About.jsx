@@ -12,11 +12,11 @@ function About () {
         <div>
           <span className='text-red-700 text-2xl mb-4'>Who am i?</span>
           <h2 className='text-2xl font-bold mb-6'>I&apos;m Lucio Furnari, a Front End developer</h2>
-          <p className='pb-10 border-b-[1px] border-slate-400/75'>
+          <p className='pb-6 mb-6 border-b-[1px] border-slate-400/75'>
             I&apos;m a front-end programmer with 1 year of web development experience using technologies like React and responsive page design with Tailwind CSS.
           </p>
           <div>
-            <div className='flex justify-around mb-10'>
+            <div className='flex justify-around mb-6'>
               <span>From: Argentina</span>
               <span>Email: <a href='mailto:luciofurnari99@gmail.com' className=' text-red-600'>luciofurnari99@gmail.com</a></span>
             </div>
