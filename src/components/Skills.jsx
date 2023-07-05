@@ -45,7 +45,7 @@ function Card (props) {
   return (
     <li className='bg-white p-2 sm:p-4 flex flex-col justify-center items-center w-full rounded-lg border-2 border-zinc-500'>
       <img src={url} alt={altText} className=' w-12 sm:w-full h-auto'></img>
-      <p className='mt-2 sm:mt-4 text-lg'>{imgText}</p>
+      <p className='mt-2 sm:mt-4 text-lg text-center'>{imgText}</p>
     </li>
   )
 }
