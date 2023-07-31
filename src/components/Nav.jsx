@@ -37,7 +37,7 @@ function CustomLink (props) {
         setActiveLink(false)
       }
     })
-  }, [])
+  }, [linkHref])
 
   return (
     <a href={linkHref} className={`${activeLink ? 'bg-red-500 ' : 'bg-inherit hover:bg-slate-700/40 '} flex flex-col xl:flex-row items-center w-full text-slate-100  transition-colors text-[24px] px-[24px] py-[12px] rounded-full`}>
