@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react';
 function Nav() {
 
   return (
-    <nav className='overflow-x-scroll flex sm:flex-col items-center justify-evenly bg-stone-900 fixed bottom-0 sm:top-0 left-0 w-full sm:w-auto sm:h-full p-4 z-[2]'>
+    <nav className='overflow-x-scroll flex sm:flex-col items-center gap-6 bg-stone-900 fixed bottom-0 sm:top-0 left-0 w-full sm:w-auto sm:h-full p-4 z-[2]'>
       <CustomLink linkName='Home' linkHref='#home' linkIcon={homeIcon}/>
       <CustomLink linkName='About' linkHref='#about' linkIcon={aboutIcon} />
       <CustomLink linkName='Skills' linkHref='#skills' linkIcon={skillsIcon} />
