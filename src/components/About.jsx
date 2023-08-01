@@ -10,10 +10,12 @@ function About () {
       <div className='grid md:grid-cols-2 gap-14 sm:ml-40 mt-6'>
         <img className=' hidden md:block md:w-full md:h-auto' src={aboutImg} alt='Men programming in his desktop'></img>
         <div>
-          <span className='text-red-700 text-2xl mb-4'>Who am i?</span>
-          <h2 className='text-2xl font-bold mb-6'>I&apos;m Lucio Furnari, a Front End developer</h2>
+          {/* <p className='text-red-700 text-2xl mb-4  font-semibold'>Who am i?</p> */}
+          {/* <h2 className='text-2xl font-bold mb-6'>I&apos;m Lucio Furnari, a Front End developer</h2> */}
           <p className='pb-6 mb-6 border-b-[1px] border-slate-400/75'>
             I&apos;m a front-end programmer with 1 year of web development experience using technologies like React and responsive page design with Tailwind CSS.
+            I am currently learning backend, using firebase and node js with express.
+            And taking a course on databases
           </p>
           <div>
             <div className='flex justify-around mb-6'>
