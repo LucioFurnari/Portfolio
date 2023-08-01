@@ -7,3 +7,6 @@
     @apply scroll-smooth;
   }
 }
+* {
+  font-family: 'Roboto', sans-serif;
+}
