@@ -12,6 +12,7 @@ import webpackIcon from '../assets/webpack_icon.svg';
 import viteIcon from '../assets/vite_icon.svg';
 import firebaseIcon from '../assets/firebase_icon.svg';
 import gitIcon from '../assets/git_icon.svg';
+import NextJsIcon from  '../assets/next-js.svg';
 
 function Skills () {
   return (
@@ -32,6 +33,7 @@ function Skills () {
             <Card url={webpackIcon} altText='Webpack icon' imgText='Webpack' />
             <Card url={viteIcon} altText='Vite icon' imgText='Vite' />
             <Card url={gitIcon} altText='Git icon' imgText='Git' />
+            <Card url={NextJsIcon} altText='Next js icon' imgText='Next js' />
       </ul>
     </section>
   )
